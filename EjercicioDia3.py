@@ -43,3 +43,22 @@ print("Interseccion en Y (b): ", b)
 print("Interseccion en X (m): ", m)
 
 ##9
+import math
+x_1 = 2
+y_1 = 2
+x_2 = 6
+y_2 = 10
+pendiente = ((y_2)-(y_1)/(x_2)-(x_1))
+euclides = math.sqrt((x_2 - x_1) **2 + (y_2 - y_1) **2)
+print("La pendiente es de: ", pendiente)
+print("La euclides es de: ", euclides)
+
+##10
+if m == pendiente:
+  print("Las pendientes son iguales")
+elif m>pendiente:
+    print("Las primera pendiente es mayor")
+else:
+    print("La segunda pendiente es mayor")
+
+##11
