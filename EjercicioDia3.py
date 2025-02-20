@@ -1,3 +1,14 @@
+##1
+age = 19
+
+##2
+altura = 1.70
+print(type(altura))
+
+##3
+complejo = 3+8j
+print(type(complejo))
+
 ## 4. Write a script that prompts the user to enter base and 
 # height of the triangle and calculate an area of this 
 # triangle (area = 0.5 x b x h).
