@@ -22,8 +22,24 @@ print ("El perimetro del triangulo es de ", perimetro)
 length = float(input("Ingresa el largo del rectangulo: "))
 width = float(input("Ingresa el ancho del rectangulo: "))
 area = length * width
-perimetro = 2 * (length + width)
 print ("El area del rectangulo es de ", area)
+perimetro = 2 * (length + width)
 print ("El perimetro del rectangulo es de ", perimetro)
 
+## 7
+radio = float(input("ingresa el radio: "))
+pi = 3.1416
+area = pi*radio*radio
+print ("El area es de: ", area)
+circunferencia = 2 * pi * radio
+print ("La circunferencia es de: ", circunferencia)
 
+##8
+m = 2
+b = -2
+x_intercept = -b / m
+print("Pendiente (m): ", m)
+print("Interseccion en Y (b): ", b)
+print("Interseccion en X (m): ", m)
+
+##9
