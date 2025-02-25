@@ -73,3 +73,56 @@ else:
     print("La segunda pendiente es mayor")
 
 ##11
+a = 1
+b = 6
+c = 9
+x = ( -b +-((b * b) - 4*(a * c))**.5)/2 * a
+print (x)
+print ("coloque el valor de x", x)
+y = (x*x + 6*x + 9)
+print ("El valor de y es: ", y)
+
+##12
+print("Largo de 'python' y 'dragon' y falsa comparacion")
+len_python = len('python')
+len_dragon = len('dragon')
+falsy_comparision = len_python == len_dragon
+print(f"Legth of 'python': {len_python}")
+print(f"Legth of 'dragon': {len_dragon}")
+print(f"falsy comparison (length of 'python' == length of 'dragon'): {falsy_comparision}")
+
+##13
+print("checar si 'on' esta en 'python' y 'dragon'")
+on_in_both = 'on' in'python' and 'on' in 'dragon'
+print("'on' in both 'python' and 'dragon': ", on_in_both)
+
+##14
+print("checar si 'jargon' esta en la frase")
+frase = "I hope this course is not full of jargon"
+jargon_in_frase = 'jargon' in frase
+print("el 'jargon' esta en la frase:", jargon_in_frase)
+
+##15
+print("checar si 'on' no esta en 'python' y 'dragon'")
+on_in_both = 'on' in'python' and 'on' in 'dragon'
+if on_in_both == False :
+  print("las dos palabras tienen 'on'")
+else:
+  print("las dos palabras no tienen 'on'")
+
+##16
+print("largo de python ")
+len_python=len('python')
+print("el largo de la palabra ", len_python)
+len_python=float(len_python)
+print("se convirtio el valor ", type (len_python))
+len_python=str(len_python)
+print("se convirtio el valor ", type (len_python))
+
+##17
+print("checar si el numero es par")
+numero= int(input("ingresa un numero: "))
+es_par= numero % 2 == 0
+print(f"el numero {numero} es par: {es_par}")
+
+
