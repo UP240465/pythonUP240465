@@ -151,15 +151,12 @@ r=horas*pago
 print("tu paga es de:", r)
 
 ##22.Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
-años =int(input("cuantos años tienes: "))
-h=años*3600
-d=h*24
-s=d*365
-if 100<años
-  print("no se pede calcular edades mayores a 100")
-  
-else:
-  print("tu edad a segundos son: ", s)
+años=int(input("ingresa tu edad: "))
+s_a= 365*24*60*60
+s_v=años *s_a
+print(f"una persona puede vivir{s_v} segundos")
 
 ##23.Write a Python script that displays the following table
-
+print("a a^0 a^1 a^2 a^3")
+for a in range(1, 6): 
+   print(f"{a} {a**0} {a**1} {a**2} {a**3}")
