@@ -38,13 +38,21 @@ lista=list(food_stuff_tp)
 print (lista)
 
 ##4. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
-
+numero= ((len(lista)))
+half=numero/2
+print(lista[0:int(half)], (lista[int(half)+1:numero]))
 
 ##5. Slice out the first three items and the last three items from food_staff_lt list
+print(lista[3:(numero)-3])
 
 ##6. Delete the food_staff_tp tuple completely
+del food_stuff_tp
 
 ##7. Check if an item exists in  tuple:
 
 ##- Check if 'Estonia' is a nordic country
+pais_nordico= ('Iceland', 'Norway', 'Denmark', 'Swenden', 'Finland')
+print ('Estonia' in pais_nordico)
+
 ##- Check if 'Iceland' is a nordic country##
+print('Iceland' in pais_nordico)

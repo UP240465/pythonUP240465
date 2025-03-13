@@ -32,6 +32,7 @@ print (rango)
 valor1=min(age_en_orden)-(promedio)
 valor2=max(age_en_orden)-(promedio)
 print(abs(valor1-valor2))
+
 #. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
 #. Divide the countries list into two equal lists if it is even if not one more country for the first half.
 #. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
