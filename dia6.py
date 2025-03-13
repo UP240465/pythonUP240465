@@ -48,8 +48,6 @@ print(lista[3:(numero)-3])
 ##6. Delete the food_staff_tp tuple completely
 del food_stuff_tp
 
-##7. Check if an item exists in  tuple:
-
 ##- Check if 'Estonia' is a nordic country
 pais_nordico= ('Iceland', 'Norway', 'Denmark', 'Swenden', 'Finland')
 print ('Estonia' in pais_nordico)
