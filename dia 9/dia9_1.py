@@ -22,6 +22,18 @@ else:
     #Enter your age: 30
     #You are 5 years older than me.
    # ```
+my_age=(int(input('put your age')))
+your_age=(int(input('put the other age')))
+diff=int(my_age-your_age)
+if my_age == your_age:
+    print('they are the same age', my_age)
+
+elif diff==-1 or diff==1:
+    diff=1
+    print('the difference is', diff, 'year')
+
+else:
+    print('the difference is', diff, 'years')
 
 #3. Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
 
@@ -30,3 +42,12 @@ else:
 #Enter number two: 3
 #4 is greater than 3
 #```
+
+a=int(input('pon un numero'))
+b=int(input('pon otro numero'))
+if a>b:
+    print(a, 'is greater than', b)
+elif a<b:
+    print(a,'is smaller tan', b)
+else:
+    print(a, 'is equal to', b)
