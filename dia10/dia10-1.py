@@ -1,18 +1,16 @@
 ##1. Iterate 0 to 10 using for loop, do the same using while loop.
-for i in range (11):
-    print(i)
-
-i = 0
-while i < 11:
-    print(i)
-    i += 1
+contar=0
+while contar<11:
+    print(contar)
+    contar=contar+1
 
 
 ##2. Iterate 10 to 0 using for loop, do the same using while loop.
 i = 0
-while i < 11:
-    print(i)
-    i += 1
+contar=10
+while contar>0:
+    print(contar)
+    contar=contar-1
 
 #3. Write a loop that makes seven calls to print(), so we get on the output the following triangle:
 
@@ -26,7 +24,7 @@ while i < 11:
      #######
    #```
 car = '#'
-for i in range (8):
+for i in range (7):
     print(car*i)
 
 #4. Use nested loops to create the following:
@@ -41,6 +39,9 @@ for i in range (8):
    # # # # # # # #
    # # # # # # # #
    #```
+for i in range(8):
+    print('#'*8)
+
 
 ##5. Print the following pattern:
 
@@ -57,7 +58,20 @@ for i in range (8):
    #9 x 9 = 81
    #10 x 10 = 100
    #```
+for i in range(11):
+    print(i, 'x', i, '=', (i+i))
 
 ##6. Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+tec=['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+for item in tec:
+    print(item)
+
 #7. Use for loop to iterate from 0 to 100 and print only even numbers
+for i in range(101):
+    if i%2 ==0:
+        print(i)
+
 #8. Use for loop to iterate from 0 to 100 and print only odd numbers
+for i in range(101):
+    if i%2 != 0:
+        print(i)
