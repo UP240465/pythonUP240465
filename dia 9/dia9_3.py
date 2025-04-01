@@ -25,3 +25,39 @@
 #```py
 #    Asabeneh Yetayeh lives in Finland. He is married.
 #```
+
+person={
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+    }
+print (person)
+mskills=len(person.get('skills'))//2
+print('the middle skills is', person['skills'][mskills])
+print('the word python is in person', ('Python' in person['skills']))
+
+frontdeveloper='JavaScript' and 'React' in person['skills']
+backned_developer='Node', 'Python', 'MongoDB' in person ['skills']
+fullstackdeveloper='React' and 'None' and 'MongoDB' in person ['skills']
+unknown= 'unknown title'
+
+if frontdeveloper==True and len(person['skills'])==2:
+    print('He is a front end developer')
+elif backned_developer==True:
+    print('He is a backend developer')
+elif fullstackdeveloper==True:
+    print('He is a fullstack developer')
+elif unknown==True:
+    print('unknow title')
+
+if person['is_marred']==True and person['country']=='Finland':
+    print('Asabeneh Yetayeh lives in Finland. He is married')
+else:
+    print('it does not match')
