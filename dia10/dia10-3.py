@@ -221,12 +221,19 @@ dictonary_languages={
 
 }
 for language in ordenatedlanguage:
-    dictonary_languages['language']=0
+    dictonary_languages[language]=0
 print(dictonary_languages)
 for idiom in dictonary_languages:
     for pais in datos:
         if idiom in pais['languages']:
+            dictonary_languages[idiom]=pais['population'] + dictonary_languages[idiom]
+sortedthingpopulation=sorted(dictonary_languages.values(), reverse=True)
+sorfkeyslanguagespopulation=sorted(dictonary_languages, key=dictonary_languages.get, reverse=True)
+print(sorfkeyslanguagespopulation[0], sortedthingpopulation[0])
 
    
 
   #  3. Find the 10 most populated countries in the world
+print('Los 10 idiomas mas hablados en el mundo son (orden decendente)')
+for i in range(10):
+    print(i+1, sorfkeyslanguagespopulation[i], sortedthingpopulation[i])
