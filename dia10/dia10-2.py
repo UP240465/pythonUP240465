@@ -24,3 +24,5 @@ for i in range (101):
         sumaimpar+=i
 print('la suma par es de ', sumapar)
 print('la suma impar es de ',sumaimpar)
+
+print("revisado")
