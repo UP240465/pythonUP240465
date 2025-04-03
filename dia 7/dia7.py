@@ -18,3 +18,6 @@ print(it_companies)
 
 #5. What is the difference between remove and discard
 print ('El remove nos sirve paras eliminar un elemento pero si no se encuentra marca erros y el discard en cambio hace lo mismo pero no marca errores ')
+
+
+print("revisado")

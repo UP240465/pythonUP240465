@@ -21,3 +21,5 @@ o='I am a teacher and I love to inspire and teach people'
 oracion=('I am a teacher and I love to inspire and teach people'.split())
 set_oracion= set(oracion)
 print('Ahi hay ', len(set_oracion), 'Las unicas palabras en la oracion: ', o)
+
+print("revisado")

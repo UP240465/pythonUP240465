@@ -25,3 +25,5 @@ print(A.symmetric_difference(B))
 #1. Delete the sets completely
 del A
 del B
+
+print("revisado")

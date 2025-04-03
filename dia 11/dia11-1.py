@@ -169,3 +169,5 @@ def sum0feven(rang):
     return f"La suma de los numeros impares del 1 al {rang} es igual a ", sum(parnum)
 
 print(sum0feven(50))
+
+print("revisado")
