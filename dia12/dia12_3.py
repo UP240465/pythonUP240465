@@ -14,3 +14,5 @@ def u_r_numbers():
     import random
     return random.sample(range(0, 10), 7)
 print("unique random Number: ", u_r_numbers())
+
+print("revisado")
